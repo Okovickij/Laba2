@@ -14,10 +14,6 @@ public class MenuBuilder {
         buildMenu();
     }
 
-    public Menu getMainMenu() {
-        return mainMenu;
-    }
-
     public static MenuBuilder getInstance() {
         if (instance == null) {
             instance = new MenuBuilder();

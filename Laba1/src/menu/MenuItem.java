@@ -19,22 +19,6 @@ public class MenuItem {
         return title;
     }
 
-    public void setAction(Action action) {
-        this.action = action;
-    }
-
-    public void setNextMenu(Menu nextMenu) {
-        this.nextMenu = nextMenu;
-    }
-
-    public void setPreviousMenu(Menu previousMenu) {
-        this.previousMenu = previousMenu;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
     public Menu getPreviousMenu() {
         return previousMenu;
     }
@@ -45,8 +29,6 @@ public class MenuItem {
         this.nextMenu = nextMenu;
         this.previousMenu = previousMenu;
     }
-
-
     public void executeAction() {
         action.execute();
     }
